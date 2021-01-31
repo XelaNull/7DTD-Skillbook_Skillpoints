@@ -1,0 +1,5 @@
+Only copy ONE of the folders in to your game.
+
+All_Skillbooks_Skillpoints - As the name suggestions, All Skillbooks give the option to gain a Skillpoint
+Some_Skillbooks_Skillpoints - Only the FIRST book in a series gives the option to gain a Skillpoint
+Most_Skillbooks_Skillpoints - Only the ODD numbered books in a series give the option to gain a Skillpoint
