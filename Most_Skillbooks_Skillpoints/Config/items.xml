@@ -1,6 +1,6 @@
 <config>
   <!-- Skill Books: -->
-  
+
   <!--
   <item name="bookFiremansAlmanacHeat">
   <item name="bookFiremansAlmanacSpeed">
@@ -9,10 +9,10 @@
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookFiremansAlmanacPrevention">
   <item name="bookFiremansAlmanacEquipment">
@@ -21,10 +21,10 @@
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookNightStalkerStealthDamage">
   <item name="bookNightStalkerBlades">
@@ -33,10 +33,10 @@
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookNightStalkerArchery">
   <item name="bookNightStalkerSlumberParty">
@@ -45,10 +45,10 @@
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookLuckyLooterDukes">
   <item name="bookLuckyLooterBrass">
@@ -59,8 +59,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookLuckyLooterBooks">
   <item name="bookLuckyLooterMedical">
@@ -71,8 +71,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookEnforcerDamage">
   <item name="bookEnforcerPunks">
@@ -83,8 +83,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookEnforcerAPAmmo">
   <item name="bookEnforcerCriminalPursuit">
@@ -95,8 +95,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookBatterUpBigHits">
   <item name="bookBatterUpGear">
@@ -107,8 +107,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookBatterUpKnockdown">
   <item name="bookBatterUpBaseballBats">
@@ -119,8 +119,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookGreatHeistSafes">
   <item name="bookGreatHeistTimedCharge">
@@ -131,8 +131,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookGreatHeistAdrenalineFall">
   <item name="bookGreatHeistMotionDetection">
@@ -143,8 +143,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookWasteTreasuresHoney">
   <item name="bookWasteTreasuresAcid">
@@ -155,8 +155,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookWasteTreasuresDoors">
   <item name="bookWasteTreasuresSinks">
@@ -167,8 +167,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookNeedleAndThreadWinterWear">
   <item name="bookNeedleAndThreadFootwear">
@@ -179,8 +179,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookNeedleAndThreadDusters">
   <item name="bookNeedleAndThreadPockets">
@@ -191,8 +191,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookHuntingJournalBears">
   <item name="bookHuntingJournalCoyotes">
@@ -203,8 +203,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookHuntingJournalDeer">
   <item name="bookHuntingJournalSelfDefense">
@@ -215,8 +215,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookArtOfMiningLuckyStrike">
   <item name="bookArtOfMiningPallets">
@@ -227,8 +227,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookArtOfMiningBlackStrap">
   <item name="bookArtOfMiningLantern">
@@ -239,8 +239,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookRangersArrowRecovery">
   <item name="bookRangersCripplingShot">
@@ -251,8 +251,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookRangersFlamingArrows">
   <item name="bookRangersKnockdown">
@@ -263,8 +263,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookPistolPeteTakeAim">
   <item name="bookPistolPeteSteadyHand">
@@ -275,8 +275,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookPistolPeteHPAmmo">
   <item name="bookPistolPeteDamage">
@@ -287,8 +287,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookShotgunMessiahDamage">
   <item name="bookShotgunMessiahLimbShot">
@@ -299,8 +299,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookShotgunMessiahMaintenance">
   <item name="bookShotgunMessiahPartyStarter">
@@ -311,8 +311,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookSniperDamage">
   <item name="bookSniperHeadShot">
@@ -323,8 +323,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookSniperControlledBreathing">
   <item name="bookSniperHPAmmo">
@@ -335,8 +335,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-    
+  </append>
+
   <!--
   <item name="bookAutoWeaponsDamage">
   <item name="bookAutoWeaponsMaintenance">
@@ -347,8 +347,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookAutoWeaponsRecoil">
   <item name="bookAutoWeaponsMachineGuns">
@@ -359,8 +359,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookUrbanCombatLanding">
   <item name="bookUrbanCombatSneaking">
@@ -371,8 +371,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookUrbanCombatLandMines">
   <item name="bookUrbanCombatRoomClearing">
@@ -383,8 +383,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookTechJunkie1Damage">
   <item name="bookTechJunkie3APAmmo">
@@ -395,8 +395,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookTechJunkie5Repulsor">
   <item name="bookTechJunkie7Hydraulics">
@@ -407,8 +407,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookBarBrawling1BasicMoves">
   <item name="bookBarBrawling3KillerInstinct">
@@ -419,8 +419,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookBarBrawling5AdrenalineHealing">
   <item name="bookBarBrawling7BoozedUp">
@@ -431,8 +431,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookSpearHunter1Damage">
   <item name="bookSpearHunter3SteelSpears">
@@ -443,8 +443,8 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
-  
+  </append>
+
   <!--
   <item name="bookSpearHunter5RapidStrike">
   <item name="bookSpearHunter7QuickStrike">
@@ -455,6 +455,6 @@
       <property name="Delay" value="0"/>
       <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
     </property>
-  </append> 
+  </append>
 
 </config>

@@ -1,6 +1,6 @@
 <configs>
 	<append xpath="/quests">
-		<quest id="quest_Skill_Point_Reward2">
+		<quest id="quest_Skillbook_Point_Reward2">
 		<property name="group_name_key" value="quest_Skill_Point_Reward2" />
 		<property name="name_key" value="Skill Point Reward" />
 		<property name="subtitle_key" value="Gain a skillpoint" />
