@@ -1,11 +1,7 @@
 <config>
-  <!-- Skill Books: -->
+  <!-- Apply the Skillpoint option to the Fourth, Fifth, Sixth, Seventh book in each series -->
 
-  <!--
-  <item name="bookFiremansAlmanacHeat">
-  <item name="bookFiremansAlmanacSpeed">
-  -->
-  <append xpath="/items/item[contains(@name,'bookFiremansAlmanacHeat') or contains(@name,'bookFiremansAlmanacSpeed')]">
+  <append xpath="/items/item[contains(@name,'bookFiremansAlmanacMolotov') or contains(@name,'bookNightStalkerThiefAdrenaline')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
@@ -13,11 +9,7 @@
     </property>
   </append>
 
-  <!--
-  <item name="bookFiremansAlmanacPrevention">
-  <item name="bookFiremansAlmanacEquipment">
-  -->
-  <append xpath="/items/item[contains(@name,'bookFiremansAlmanacPrevention') or contains(@name,'bookFiremansAlmanacEquipment')]">
+  <append xpath="/items/item[contains(@name,'bookLuckyLooterLead') or contains(@name,'bookEnforcerIntimidation')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
@@ -25,11 +17,7 @@
     </property>
   </append>
 
-  <!--
-  <item name="bookNightStalkerStealthDamage">
-  <item name="bookNightStalkerBlades">
-  -->
-  <append xpath="/items/item[contains(@name,'bookNightStalkerStealthDamage') or contains(@name,'bookNightStalkerBlades')]">
+  <append xpath="/items/item[contains(@name,'bookBatterUpKnockdown') or contains(@name,'bookGreatHeistClaimed')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
@@ -37,11 +25,7 @@
     </property>
   </append>
 
-  <!--
-  <item name="bookNightStalkerArchery">
-  <item name="bookNightStalkerSlumberParty">
-  -->
-  <append xpath="/items/item[contains(@name,'bookNightStalkerArchery') or contains(@name,'bookNightStalkerSlumberParty')]">
+  <append xpath="/items/item[contains(@name,'bookWasteTreasuresWater') or contains(@name,'bookNeedleAndThreadDesertWear')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
@@ -49,411 +33,262 @@
     </property>
   </append>
 
-  <!--
-  <item name="bookLuckyLooterDukes">
-  <item name="bookLuckyLooterBrass">
-  -->
-  <append xpath="/items/item[contains(@name,'bookLuckyLooterDukes') or contains(@name,'bookLuckyLooterBrass')]">
+  <append xpath="/items/item[contains(@name,'bookHuntingJournalMountainLions') or contains(@name,'bookArtOfMiningBlackStrap')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookLuckyLooterBooks">
-  <item name="bookLuckyLooterMedical">
-  -->
-  <append xpath="/items/item[contains(@name,'bookLuckyLooterBooks') or contains(@name,'bookLuckyLooterMedical')]">
+  <append xpath="/items/item[contains(@name,'bookRangersAPAmmo') or contains(@name,'bookPistolPeteMaintenance')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookEnforcerDamage">
-  <item name="bookEnforcerPunks">
-  -->
-  <append xpath="/items/item[contains(@name,'bookEnforcerDamage') or contains(@name,'bookEnforcerPunks')]">
+  <append xpath="/items/item[contains(@name,'bookShotgunMessiahSlugs') or contains(@name,'bookSniperReload')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookEnforcerAPAmmo">
-  <item name="bookEnforcerCriminalPursuit">
-  -->
-  <append xpath="/items/item[contains(@name,'bookEnforcerAPAmmo') or contains(@name,'bookEnforcerCriminalPursuit')]">
+  <append xpath="/items/item[contains(@name,'bookAutoWeaponsDrumMag') or contains(@name,'bookUrbanCombatJumping')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookBatterUpBigHits">
-  <item name="bookBatterUpGear">
-  -->
-  <append xpath="/items/item[contains(@name,'bookBatterUpBigHits') or contains(@name,'bookBatterUpGear')]">
+  <append xpath="/items/item[starts-with(@name,'book') and contains(@name,'4')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookBatterUpKnockdown">
-  <item name="bookBatterUpBaseballBats">
-  -->
-  <append xpath="/items/item[contains(@name,'bookBatterUpKnockdown') or contains(@name,'bookBatterUpBaseballBats')]">
+
+  <append xpath="/items/item[contains(@name,'bookFiremansAlmanacPrevention') or contains(@name,'bookNightStalkerArchery')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookGreatHeistSafes">
-  <item name="bookGreatHeistTimedCharge">
-  -->
-  <append xpath="/items/item[contains(@name,'bookGreatHeistSafes') or contains(@name,'bookGreatHeistTimedCharge')]">
+  <append xpath="/items/item[contains(@name,'bookLuckyLooterBooks') or contains(@name,'bookEnforcerAPAmmo')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookGreatHeistAdrenalineFall">
-  <item name="bookGreatHeistMotionDetection">
-  -->
-  <append xpath="/items/item[contains(@name,'bookGreatHeistAdrenalineFall') or contains(@name,'bookGreatHeistMotionDetection')]">
+  <append xpath="/items/item[contains(@name,'bookBatterUpMaintenance') or contains(@name,'bookGreatHeistAdrenalineFall')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookWasteTreasuresHoney">
-  <item name="bookWasteTreasuresAcid">
-  -->
-  <append xpath="/items/item[contains(@name,'bookWasteTreasuresHoney') or contains(@name,'bookWasteTreasuresAcid')]">
+  <append xpath="/items/item[contains(@name,'bookWasteTreasuresDoors') or contains(@name,'bookNeedleAndThreadDusters')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookWasteTreasuresDoors">
-  <item name="bookWasteTreasuresSinks">
-  -->
-  <append xpath="/items/item[contains(@name,'bookWasteTreasuresDoors') or contains(@name,'bookWasteTreasuresSinks')]">
+  <append xpath="/items/item[contains(@name,'bookHuntingJournalDeer') or contains(@name,'bookArtOfMiningPallets')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookNeedleAndThreadWinterWear">
-  <item name="bookNeedleAndThreadFootwear">
-  -->
-  <append xpath="/items/item[contains(@name,'bookNeedleAndThreadWinterWear') or contains(@name,'bookNeedleAndThreadFootwear')]">
+  <append xpath="/items/item[contains(@name,'bookRangersFlamingArrows') or contains(@name,'bookPistolPeteHPAmmo')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookNeedleAndThreadDusters">
-  <item name="bookNeedleAndThreadPockets">
-  -->
-  <append xpath="/items/item[contains(@name,'bookNeedleAndThreadDusters') or contains(@name,'bookNeedleAndThreadPockets')]">
+  <append xpath="/items/item[contains(@name,'bookShotgunMessiahMaintenance') or contains(@name,'bookSniperControlledBreathing')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookHuntingJournalBears">
-  <item name="bookHuntingJournalCoyotes">
-  -->
-  <append xpath="/items/item[contains(@name,'bookHuntingJournalBears') or contains(@name,'bookHuntingJournalCoyotes')]">
+  <append xpath="/items/item[contains(@name,'bookAutoWeaponsRecoil') or contains(@name,'bookUrbanCombatLandMines')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookHuntingJournalDeer">
-  <item name="bookHuntingJournalSelfDefense">
-  -->
-  <append xpath="/items/item[contains(@name,'bookHuntingJournalDeer') or contains(@name,'bookHuntingJournalSelfDefense')]">
+  <append xpath="/items/item[starts-with(@name,'book') and contains(@name,'5')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookArtOfMiningLuckyStrike">
-  <item name="bookArtOfMiningPallets">
-  -->
-  <append xpath="/items/item[contains(@name,'bookArtOfMiningLuckyStrike') or contains(@name,'bookArtOfMiningPallets')]">
+
+  <append xpath="/items/item[contains(@name,'bookFiremansAlmanacHarvest') or contains(@name,'bookNightStalkerTwilightThief')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookArtOfMiningBlackStrap">
-  <item name="bookArtOfMiningLantern">
-  -->
-  <append xpath="/items/item[contains(@name,'bookArtOfMiningBlackStrap') or contains(@name,'bookArtOfMiningLantern')]">
+  <append xpath="/items/item[contains(@name,'bookLuckyLooterFood') or contains(@name,'bookEnforcerHPAmmo')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookRangersArrowRecovery">
-  <item name="bookRangersCripplingShot">
-  -->
-  <append xpath="/items/item[contains(@name,'bookRangersArrowRecovery') or contains(@name,'bookRangersCripplingShot')]">
+  <append xpath="/items/item[contains(@name,'bookBatterUpBaseballBats') or contains(@name,'bookGreatHeistSprintSneak')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookRangersFlamingArrows">
-  <item name="bookRangersKnockdown">
-  -->
-  <append xpath="/items/item[contains(@name,'bookRangersFlamingArrows') or contains(@name,'bookRangersKnockdown')]">
+  <append xpath="/items/item[contains(@name,'bookWasteTreasuresCloth') or contains(@name,'bookNeedleAndThreadPufferCoats')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookPistolPeteTakeAim">
-  <item name="bookPistolPeteSteadyHand">
-  -->
-  <append xpath="/items/item[contains(@name,'bookPistolPeteTakeAim') or contains(@name,'bookPistolPeteSteadyHand')]">
+  <append xpath="/items/item[contains(@name,'bookHuntingJournalVultures') or contains(@name,'bookArtOfMiningAvalanche')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookPistolPeteHPAmmo">
-  <item name="bookPistolPeteDamage">
-  -->
-  <append xpath="/items/item[contains(@name,'bookPistolPeteHPAmmo') or contains(@name,'bookPistolPeteDamage')]">
+  <append xpath="/items/item[contains(@name,'bookRangersForestGuide') or contains(@name,'bookPistolPeteAPAmmo')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookShotgunMessiahDamage">
-  <item name="bookShotgunMessiahLimbShot">
-  -->
-  <append xpath="/items/item[contains(@name,'bookShotgunMessiahDamage') or contains(@name,'bookShotgunMessiahLimbShot')]">
+  <append xpath="/items/item[contains(@name,'bookShotgunMessiahMagazine') or contains(@name,'bookSniperAPAmmo')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookShotgunMessiahMaintenance">
-  <item name="bookShotgunMessiahPartyStarter">
-  -->
-  <append xpath="/items/item[contains(@name,'bookShotgunMessiahMaintenance') or contains(@name,'bookShotgunMessiahPartyStarter')]">
+  <append xpath="/items/item[contains(@name,'bookAutoWeaponsRagdoll') or contains(@name,'bookUrbanCombatAdrenalineRush')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookSniperDamage">
-  <item name="bookSniperHeadShot">
-  -->
-  <append xpath="/items/item[contains(@name,'bookSniperDamage') or contains(@name,'bookSniperHeadShot')]">
+  <append xpath="/items/item[starts-with(@name,'book') and contains(@name,'6')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookSniperControlledBreathing">
-  <item name="bookSniperHPAmmo">
-  -->
-  <append xpath="/items/item[contains(@name,'bookSniperControlledBreathing') or contains(@name,'bookSniperHPAmmo')]">
+
+  <append xpath="/items/item[contains(@name,'bookFiremansAlmanacEquipment') or contains(@name,'bookNightStalkerSlumberParty')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookAutoWeaponsDamage">
-  <item name="bookAutoWeaponsMaintenance">
-  -->
-  <append xpath="/items/item[contains(@name,'bookAutoWeaponsDamage') or contains(@name,'bookAutoWeaponsMaintenance')]">
+  <append xpath="/items/item[contains(@name,'bookLuckyLooterMedical') or contains(@name,'bookEnforcerCriminalPursuit')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookAutoWeaponsRecoil">
-  <item name="bookAutoWeaponsMachineGuns">
-  -->
-  <append xpath="/items/item[contains(@name,'bookAutoWeaponsRecoil') or contains(@name,'bookAutoWeaponsMachineGuns')]">
+  <append xpath="/items/item[contains(@name,'bookBatterUpMetalChain') or contains(@name,'bookGreatHeistMotionDetection')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookUrbanCombatLanding">
-  <item name="bookUrbanCombatSneaking">
-  -->
-  <append xpath="/items/item[contains(@name,'bookUrbanCombatLanding') or contains(@name,'bookUrbanCombatSneaking')]">
+  <append xpath="/items/item[contains(@name,'bookWasteTreasuresSinks') or contains(@name,'bookNeedleAndThreadPockets')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookUrbanCombatLandMines">
-  <item name="bookUrbanCombatRoomClearing">
-  -->
-  <append xpath="/items/item[contains(@name,'bookUrbanCombatLandMines') or contains(@name,'bookUrbanCombatRoomClearing')]">
+  <append xpath="/items/item[contains(@name,'bookHuntingJournalSelfDefense') or contains(@name,'bookArtOfMiningLantern')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookTechJunkie1Damage">
-  <item name="bookTechJunkie3APAmmo">
-  -->
-  <append xpath="/items/item[contains(@name,'bookTechJunkie1Damage') or contains(@name,'bookTechJunkie3APAmmo')]">
+  <append xpath="/items/item[contains(@name,'bookRangersKnockdown') or contains(@name,'bookPistolPeteDamage')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookTechJunkie5Repulsor">
-  <item name="bookTechJunkie7Hydraulics">
-  -->
-  <append xpath="/items/item[contains(@name,'bookTechJunkie5Repulsor') or contains(@name,'bookTechJunkie7Hydraulics')]">
+  <append xpath="/items/item[contains(@name,'bookShotgunMessiahPartyStarter') or contains(@name,'bookSniperHPAmmo')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookBarBrawling1BasicMoves">
-  <item name="bookBarBrawling3KillerInstinct">
-  -->
-  <append xpath="/items/item[contains(@name,'bookBarBrawling1BasicMoves') or contains(@name,'bookBarBrawling3KillerInstinct')]">
+  <append xpath="/items/item[contains(@name,'bookAutoWeaponsMachineGuns') or contains(@name,'bookUrbanCombatRoomClearing')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
-  <!--
-  <item name="bookBarBrawling5AdrenalineHealing">
-  <item name="bookBarBrawling7BoozedUp">
-  -->
-  <append xpath="/items/item[contains(@name,'bookBarBrawling5AdrenalineHealing') or contains(@name,'bookBarBrawling7BoozedUp')]">
+  <append xpath="/items/item[starts-with(@name,'book') and contains(@name,'7')]">
     <property class="Action1">
       <property name="Class" value="Quest"/>
       <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
-    </property>
-  </append>
-
-  <!--
-  <item name="bookSpearHunter1Damage">
-  <item name="bookSpearHunter3SteelSpears">
-  -->
-  <append xpath="/items/item[contains(@name,'bookSpearHunter1Damage') or contains(@name,'bookSpearHunter3SteelSpears')]">
-    <property class="Action1">
-      <property name="Class" value="Quest"/>
-      <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
-    </property>
-  </append>
-
-  <!--
-  <item name="bookSpearHunter5RapidStrike">
-  <item name="bookSpearHunter7QuickStrike">
-  -->
-  <append xpath="/items/item[contains(@name,'bookSpearHunter5RapidStrike') or contains(@name,'bookSpearHunter7QuickStrike')]">
-    <property class="Action1">
-      <property name="Class" value="Quest"/>
-      <property name="Delay" value="0"/>
-      <property name="QuestGiven" value="quest_Skill_Point_Reward2"/>
+      <property name="QuestGiven" value="quest_Skillbook_Point_Reward2"/>
     </property>
   </append>
 
